@@ -137,7 +137,7 @@ h1{
         <div id="center" onclick="sun()"></div>
         <div id="planet1" onclick="mercury()"></div>
         <div id="planet2" onclick="Venus()"></div>
-        <div id="planet3" onclick="earth()"></div>
+        <div id="planet3" onclick="earth2()" ondblclick="earth()"></div>
         <div id="planet4" onclick="mars()"></div>
         <div id="planet5" onclick="jupiter()"></div>
         <div id="planet6" onclick="saturn()"></div>
@@ -158,6 +158,10 @@ h1{
 
       function earth(){
         alert('This plant is our home, earth! for more interesting facts double click the planet!')
+      }
+
+      function earth2(){
+        window.location.href = "earth.html";
       }
 
       function mars(){
