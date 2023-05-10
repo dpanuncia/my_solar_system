@@ -205,3 +205,9 @@ loadData(function(world, cList, airports) {
   scale()
   autorotate = d3.timer(rotate)
 })
+
+const button = document.querySelector('.space-button');
+button.addEventListener('click', function() {
+  alert('Launching in 3... 2... 1...');
+  window.location.href = "SolarSystem.html";
+});

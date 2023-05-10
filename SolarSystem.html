@@ -5,6 +5,7 @@
         </title>
     </head>
     <style>
+      
 body{
   background-image: url('star.jpg');
 }
@@ -131,9 +132,26 @@ div {
 h1{
   color: white, green, purple;
 }
+.space-button {
+    background-color: #161b22;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .space-button:hover {
+    background-color: #ffffff;
+    color: #161b22;
+    border-color: #161b22;
+  }
     </style>
     <body>
-      
+      <button class="space-button">Earth!</button>
         <div id="center" onclick="sun2()"></div>
         <div id="planet1" onclick="mercury2()"></div>
         <div id="planet2" onclick="venus2()"></div>
@@ -181,6 +199,11 @@ h1{
         alert('This plant is Neptune! for more interesting facts double click the planet!')
       }
 
+      const button = document.querySelector('.space-button');
+      button.addEventListener('click', function() {
+      alert('Launching in 3... 2... 1...');
+      window.location.href = "earth.html";
+});
      
       function earth2(){
         window.location.href = "earth.html";
