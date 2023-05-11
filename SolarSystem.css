@@ -184,7 +184,9 @@ body{
     /* Pop-up images for the hover CSS EARTH */
   
     #hover-button {
-    color: #ffffff;
+      top: 2%;
+      left: 0%;
+    color: #0473fb;
     border: none;
     padding: 10px 20px;
     font-size: 18px;
@@ -229,7 +231,7 @@ body{
     }
     
     .space-button:hover {
-      background-color: #ffffff;
+      background-color: #0473fb;
       color: #161b22;
       border-color: #161b22;
     }
