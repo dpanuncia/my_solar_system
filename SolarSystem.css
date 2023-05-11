@@ -15,6 +15,8 @@ body{
     top: 350px;
     background: radial-gradient(white,orange,yellow);
   }
+
+  /*CSS code for all the planets */
   
   #planet1 {
     width: 10px;
@@ -120,6 +122,8 @@ body{
     from{transform:rotate(0deg) translateX(460px) rotate(0deg);}
     to{transform:rotate(360deg) translateX(460px) rotate(-360deg);}
   }
+
+  /*CSS for effects on the button*/
   
   h1{
     color: white, green, purple;
@@ -141,6 +145,10 @@ body{
       color: #161b22;
       border-color: #161b22;
     }
+
+
+
+    /* Pop-up images for the hover CSS */
   
     #hover-button {
     color: #ffffff;
