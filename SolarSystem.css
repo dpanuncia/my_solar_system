@@ -123,12 +123,100 @@ body{
     to{transform:rotate(360deg) translateX(460px) rotate(-360deg);}
   }
 
-  /*CSS for effects on the button*/
+  /*----------------------------------------------------------------- */
+
+ 
+    
+     /* Pop-up images for the hover CSS SUN */
+
+    #hb2 {
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+      }
+      
+      #ic2 {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+      
+      #ic2 img {
+        max-width: 400px;
+        max-height: 400px;
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      }
+
+      /* Pop-up images for the hover CSS SUN */
   
-  h1{
+      .sb2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-color: #161b22;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+      }
+      
+      .sb2:hover {
+        background-color: #a56614;
+        color: #161b22;
+        border-color: #161b22;
+      }
+    
+      
+      /*------------------------------*/
+
+
+    /* Pop-up images for the hover CSS EARTH */
+  
+    #hover-button {
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  #image-container {
+    display: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  #image-container img {
+    max-width: 400px;
+    max-height: 400px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+   /*CSS for effects on the button EARTH*/
+  
+   h1{
     color: white, green, purple;
   }
   .space-button {
+      position: absolute;
+      top: 150%;
+      left: 50%;
       background-color: #161b22;
       color: #ffffff;
       border: 2px solid #ffffff;
@@ -145,33 +233,4 @@ body{
       color: #161b22;
       border-color: #161b22;
     }
-
-
-
-    /* Pop-up images for the hover CSS */
-  
-    #hover-button {
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-  }
-  
-  #image-container {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-  }
-  
-  #image-container img {
-    max-width: 400px;
-    max-height: 400px;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
   

@@ -1,3 +1,5 @@
+
+/*Alerts for all the planets that allow a pop to appear explaining what planet it is  */
 function sun(){
     alert('This sun is a G sun due its white/yellow complication')
   }
@@ -34,6 +36,30 @@ function sun(){
     alert('This plant is Neptune! for more interesting facts double click the planet!')
   }
 
+/*---------------------------------------------------------------------------------*/
+
+/*Javascript code that makes the image Appear when button is Hovered SUN */
+
+  const button5 = document.getElementById('hb2');
+  const imageContainer5 = document.getElementById('ic2');
+  
+  button5.addEventListener('mouseover', function() {
+  imageContainer5.style.display = 'block';
+  });
+  
+  button5.addEventListener('mouseout', function() {
+  imageContainer5.style.display = 'none';
+  });
+  
+  const button3 = document.querySelector('.space-button');
+    button5.addEventListener('click', function() {
+    alert('Launching in 3... 2... 1...');
+    window.location.href = "sun.html";
+  });
+  
+/*---------------------------------------------------------------------------------*/
+
+/*Javascript code that makes the image Appear when button is Hovered EARTH */
   const button = document.getElementById('hover-button');
 const imageContainer = document.getElementById('image-container');
 
@@ -50,7 +76,8 @@ const button2 = document.querySelector('.space-button');
   alert('Launching in 3... 2... 1...');
   window.location.href = "earth.html";
 });
- 
+
+/*Code that redirects you to the specific planet page */ 
   function earth2(){
     window.location.href = "earth.html";
   }
