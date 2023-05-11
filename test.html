@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="hover-button">
+        <button class="space-button">Earth!</button>
+    </div>
+<div id="image-container">
+  <img src="e2.gif" alt="Close-up image">
+</div>
+<style>
+    #hover-button {
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+#image-container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#image-container img {
+  max-width: 400px;
+  max-height: 400px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.space-button {
+    background-color: #161b22;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .space-button:hover {
+    background-color: #ffffff;
+    color: #161b22;
+    border-color: #161b22;
+  }
+
+</style>
+
+<script>
+    const button = document.getElementById('hover-button');
+const imageContainer = document.getElementById('image-container');
+
+button.addEventListener('mouseover', function() {
+  imageContainer.style.display = 'block';
+});
+
+button.addEventListener('mouseout', function() {
+  imageContainer.style.display = 'none';
+});
+
+const button2 = document.querySelector('.space-button');
+      button.addEventListener('click', function() {
+      alert('Launching in 3... 2... 1...');
+      window.location.href = "earth.html";
+});
+
+</script>
+</body>
+</html>
