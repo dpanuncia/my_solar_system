@@ -30,5 +30,31 @@
     background-color: #ffcc00;
     transform: translateZ(100px);
   }
+
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: black;
+  }
+  
+  #stars, #stars2, #stars3 {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    background: white;
+  }
+  
+  #stars {
+    top: 10%;
+  }
+  
+  #stars2 {
+    top: 30%;
+  }
+  
+  #stars3 {
+    top: 75%;
+  }
   
   
