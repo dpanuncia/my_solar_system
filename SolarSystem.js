@@ -97,6 +97,7 @@ const button2 = document.querySelector('.space-button');
   alert('Launching in 3... 2... 1...');
   window.location.href = "earth.html";
 });
+/*---------------------------------------------------------------------------------*/
 
 /*Code that redirects you to the specific planet page */ 
   function earth2(){
