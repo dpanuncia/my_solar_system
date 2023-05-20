@@ -59,6 +59,27 @@ function sun(){
   
 /*---------------------------------------------------------------------------------*/
 
+/*Javascript code that makes the image Appear when button is Hovered MERCURY */
+
+const button7 = document.getElementById('hb');
+const imageContainer7 = document.getElementById('ic');
+
+button5.addEventListener('mouseover', function() {
+imageContainer5.style.display = 'block';
+});
+
+button5.addEventListener('mouseout', function() {
+imageContainer5.style.display = 'none';
+});
+
+const button9 = document.querySelector('.space-button');
+  button7.addEventListener('click', function() {
+  alert('Launching in 3... 2... 1...');
+  window.location.href = "mercury.html";
+});
+
+/*---------------------------------------------------------------------------------*/
+
 /*Javascript code that makes the image Appear when button is Hovered EARTH */
   const button = document.getElementById('hover-button');
 const imageContainer = document.getElementById('image-container');

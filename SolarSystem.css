@@ -207,11 +207,11 @@ body{
       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     }
 
-    /* Pop-up images for the hover CSS SUN */
+    /* Pop-up images for the hover CSS Mercury */
 
-    .sb2 {
+    .hb {
       position: absolute;
-      top: 50%;
+      top: 70%;
       left: 50%;
       background-color: #161b22;
       color: #ffffff;
@@ -224,7 +224,7 @@ body{
       transition: all 0.3s ease;
     }
     
-    .sb2:hover {
+    .sb:hover {
       background-color: #a56614;
       color: #161b22;
       border-color: #161b22;
