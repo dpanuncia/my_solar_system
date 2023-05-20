@@ -65,14 +65,14 @@ const button7 = document.getElementById('hb');
 const imageContainer7 = document.getElementById('ic');
 
 button5.addEventListener('mouseover', function() {
-imageContainer5.style.display = 'block';
+imageContainer7.style.display = 'block';
 });
 
 button5.addEventListener('mouseout', function() {
-imageContainer5.style.display = 'none';
+imageContainer7.style.display = 'none';
 });
 
-const button9 = document.querySelector('.space-button');
+const button9 = document.querySelector('.sb');
   button7.addEventListener('click', function() {
   alert('Launching in 3... 2... 1...');
   window.location.href = "mercury.html";
